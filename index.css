@@ -1,0 +1,79 @@
+body {
+    background-color: aquamarine;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: blueviolet;
+    background-color: bisque;
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+#abc {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+}
+
+img {
+    border-radius: 20px;
+    border: 2px blue solid;
+}
+
+.product-card {
+    width: 500px;
+    padding: 20px;
+    margin: 15px;
+    background-color: burlywood;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgb(239, 243, 24);
+}
+
+.prod1 {
+    width: 500px;
+    padding: 20px;
+    margin: 15px;
+    background-color: burlywood;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgb(239, 243, 24);
+}
+
+.product-jacket {
+    width: 500px;
+    padding: 20px;
+    margin: 15px;
+    background-color: burlywood;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgb(239, 243, 24);
+}
+
+.product-hardware {
+    border: 2px solid black;
+    width: 500px;
+    padding: 20px;
+    margin: 15px;
+    background-color: burlywood;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgb(239, 243, 24);
+}
+
+.product_parent_card {
+    display: flex;
+    flex-wrap: wrap;
+    border: 10px solid rgb(148, 138, 129);
+}
+
+button {
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+}
+
+button:hover {
+    color: brown;
+    background-color: cadetblue;
+    transition: color 2s ease;
+}
